@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-05 15:52-0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:138
+msgid "Name of Role"
+msgstr "Nome do Papel"
+
+#: models.py:142 models.py:196 models.py:434 models.py:550 models.py:567
+msgid "Description"
+msgstr "Descrição"
+
+#: models.py:151 models.py:1046
+msgid "Role"
+msgstr "Papel"
+
+#: models.py:152
+msgid "Roles"
+msgstr "Papéis"
+
+#: models.py:183
+msgid "In definition"
+msgstr "Em definição"
+
+#: models.py:184
+msgid "Active"
+msgstr "Ativo"
+
+#: models.py:185
+msgid "Retired"
+msgstr "Inativo"
+
+#: models.py:189
+msgid "Workflow Name"
+msgstr "Nome do Fluxo"
+
+#: models.py:193
+msgid "Slug"
+msgstr "Identificador"
+
+#: models.py:200
+msgid "Status"
+msgstr ""
+
+#: models.py:402
+msgid "Workflow"
+msgstr "Fluxo de Trabalho"
+
+#: models.py:403
+msgid "Workflows"
+msgstr "Fluxos de Trabalho"
+
+#: models.py:422
+msgid "Second(s)"
+msgstr "Segundo(s)"
+
+#: models.py:423
+msgid "Minute(s)"
+msgstr "Minuto(s)"
+
+#: models.py:424
+msgid "Hour(s)"
+msgstr "Hora(s)"
+
+#: models.py:425
+msgid "Day(s)"
+msgstr "Dia(s)"
+
+#: models.py:426
+msgid "Week(s)"
+msgstr "Semana(s)"
+
+#: models.py:430
+msgid "Name"
+msgstr "Nome"
+
+#: models.py:438
+msgid "Is the start state?"
+msgstr "É o estado inicial?"
+
+#: models.py:439
+msgid "There can only be one start state for a workflow"
+msgstr "É permitido apenas um estado inicial"
+
+#: models.py:443
+msgid "Is an end state?"
+msgstr "É um estado final"
+
+#: models.py:444
+msgid "An end state shows that the workflow is complete"
+msgstr "Um estado final define que um fluxo de trabalho está completo"
+
+#: models.py:464
+msgid "Estimated time (value)"
+msgstr "Tempo estimado (valor)"
+
+#: models.py:466
+msgid "Use whole numbers"
+msgstr "Usar todos os números"
+
+#: models.py:469
+msgid "Estimation unit of time"
+msgstr "Unidade de tempo estimado"
+
+#: models.py:498
+msgid "State"
+msgstr "Estado"
+
+#: models.py:499
+msgid "States"
+msgstr "Estados"
+
+#: models.py:507
+msgid "Name of transition"
+msgstr "Nome da transição"
+
+#: models.py:509
+msgid ""
+"Use an \"active\" verb. e.g. \"Close Issue\", \"Open Vacancy\" or \"Start "
+"Interviews\""
+msgstr ""
+"Usar um verbo \"ativo\", ex.: \"Fechar Tarefa\", \"Início das Férias\" ou \"Início\""
+
+#: models.py:537 models.py:1044
+msgid "Transition"
+msgstr "Transição"
+
+#: models.py:538
+msgid "Transitions"
+msgstr "Transições"
+
+#: models.py:546
+msgid "Event Type Name"
+msgstr "Nome do Tipo de Evento"
+
+#: models.py:563
+msgid "Event summary"
+msgstr "Sumário do Eventos"
+
+#: models.py:594
+msgid "Mandatory event"
+msgstr "Evento principal"
+
+#: models.py:596
+msgid ""
+"This event must be marked as complete before moving out of the associated "
+"state."
+msgstr ""
+"Este evento deve ser marcado como completo antes de mudar para outro estado"
+
+#: models.py:604 models.py:1045
+msgid "Event"
+msgstr "Evento"
+
+#: models.py:605
+msgid "Events"
+msgstr "Eventos"
+
+#: models.py:806
+#, python-format
+msgid "Role \"%(role)s\" assigned to %(name)s"
+msgstr "Papel \"%(role)s\" atribuído a %(name)s"
+
+#: models.py:834
+#, python-format
+msgid "Role \"%(role)s\" removed from %(nome)s"
+msgstr "Papel \"%(role)s\" tirado de %(nome)s"
+
+#: models.py:869
+#, python-format
+msgid "All roles removed from %s"
+msgstr "Todos os papéis tirados de %s"
+
+#: models.py:905
+#, python-format
+msgid "Participant %(name)s disabled with the reason: %(note)s"
+msgstr "Participante %(name)s desabilitado com o motivo: %(note)s"
+
+#: models.py:943
+#, python-format
+msgid "Participant %(name)s enabled with the reason: %(note)s"
+msgstr "Participante %(name)s habilitado com o motivo: %(note)s"
+
+#: models.py:991
+msgid "Workflow Activity"
+msgstr "Atividade no Fluxo de Trabalho"
+
+#: models.py:992
+msgid "Workflow Activites"
+msgstr "Atividades no Fluxo de Trabalho"
+
+#: models.py:1019
+msgid "role not assigned"
+msgstr "papel não atribuído"
+
+#: models.py:1020
+msgid " (disabled)"
+msgstr " (desabilitado)"
+
+#: models.py:1025
+msgid "Participant"
+msgstr "Participante"
+
+#: models.py:1026
+msgid "Participants"
+msgstr "Participantes"
+
+#: models.py:1047
+msgid "Comment"
+msgstr "Comentário"
+
+#: models.py:1054
+msgid "The sort of thing being logged"
+msgstr "O tipo de coisa sendo logada"
+
+#: models.py:1059
+msgid "The state at this point in the workflow history"
+msgstr "O estado neste ponto do histórico do fluxo de trabalho"
+
+#: models.py:1066
+msgid "The transition relating to this happening in the workflow history"
+msgstr "A transição para este acontecimento do histórico do fluxo de trabalho"
+
+#: models.py:1073
+msgid "The event relating to this happening in the workflow history"
+msgstr "O evento para este acontecimento no histórico do fluxo de trabalho"
+
+#: models.py:1078
+msgid "The participant who triggered this happening in the workflow history"
+msgstr "O participante que iniciou este acontecimento no histórico do fluxo de trabalho"
+
+#: models.py:1083
+msgid "Note"
+msgstr "Nota"
+
+#: models.py:1087
+msgid "Deadline"
+msgstr "Prazo final"
+
+#: models.py:1090
+msgid "The deadline for staying in this state"
+msgstr "O prazo final para ficar neste estado"
+
+#: models.py:1114
+msgid "Workflow History"
+msgstr "Histórico do Fluxo de Trabalho"
+
+#: models.py:1115
+msgid "Workflow Histories"
+msgstr "Históricos do Fluxo de Trabalho"
