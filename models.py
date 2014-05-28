@@ -831,7 +831,7 @@ class WorkflowActivity(models.Model):
             if role in p_as_assignee.roles.all():
                 p_as_assignee.roles.remove(role)
                 name = assignee.get_full_name() if assignee.get_full_name() else assignee.username
-                note = _('Role "%(role)s" removed from %(nome)s')%{'role': role.__unicode__(), 'name': name}
+                note = _('Role "%(role)s" removed from %(name)s')%{'role': role.__unicode__(), 'name': name}
                 current_state = self.current_state().state if self.current_state() else None
                 deadline = self.current_state().deadline if self.current_state() else None
                 wh = WorkflowHistory(
@@ -902,7 +902,7 @@ class WorkflowActivity(models.Model):
                 p_to_disable.disabled = True
                 p_to_disable.save()
                 name = user_to_disable.get_full_name() if user_to_disable.get_full_name() else user_to_disable.username
-                note = _('Participant %(name)s disabled with the reason: %(nome)s')%{'name': name, 'note': note}
+                note = _('Participant %(name)s disabled with the reason: %(note)s')%{'name': name, 'note': note}
                 current_state = self.current_state().state if self.current_state() else None
                 deadline = self.current_state().deadline if self.current_state() else None
                 wh = WorkflowHistory(

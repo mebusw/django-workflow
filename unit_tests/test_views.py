@@ -72,9 +72,7 @@ class ViewTestCase(TestCase):
             Makes sure the graphviz method returns an appropriate exception if
             graphviz path is not specified
             """
-            _target = settings._target
-            del _target.GRAPHVIZ_DOT_COMMAND
-            settings.__setattr__('_target', _target)
+            del settings.GRAPHVIZ_DOT_COMMAND
             c = Client()
             try:
                 response = c.get('/test_workflow.png')
